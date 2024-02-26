@@ -1,0 +1,55 @@
+
+
+.container{
+    width: 80%;
+    margin: 3rem 0 3em  3em;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.campo__formulario{
+    margin-top: 0.8em;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.campo__formulario-check{
+    margin-top: 0.8em;
+    display: flex;
+    gap: 0.5em;
+}
+
+.label-campo__formulario{
+    margin-bottom: 0.5em ;
+}
+
+.mensagem-erro{
+    color: red;
+}
+
+#check-terms{
+    padding: 0;
+    margin: 0;
+}
+
+#termos{
+    font-size: 0.6em;
+}
+
+#mensagem-erro-termos-lidos{
+    margin-top: 0.8em;
+    display: block;
+}
+
+.campo__botao-enviar{
+    margin-top: 0.8em;
+}
+
+.btn-enviar{
+    padding: 0.3em;
+    border-radius: 10px;
+}
